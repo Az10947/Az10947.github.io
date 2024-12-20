@@ -1,0 +1,37 @@
+p {
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+li {
+  font-size: 25px;
+}
+
+html {
+  background-color: #26b100;
+}
+
+h1 {
+  margin: 0;                     /* 移除預設的外邊距 */
+  padding: 10px 0;               /* 上下內邊距 20px，左右內邊距 0 */
+  color: #00e5ff;                /* 標題文字顏色：深藍色 */
+  text-shadow: 3px 3px 1px black; /* 文字陰影：右下3px模糊1px黑色 */
+  font-family: Arial, sans-serif; /* 設定字體 */
+  text-align: center;            /* 讓標題居中 */
+}
+
+body {
+  width: 600px;                /* 固定寬度 */
+  margin: 0 auto;              /* 上下邊距為0，左右自動居中 */
+  background-color: hsl(207, 90%, 58%);   /* 背景顏色：橙紅色 */
+  padding: 0 20px 20px 20px;   /* 內邊距：上0，右20，下20，左20 */
+  border: 5px solid black;     /* 黑色實線邊框 */
+  font-family: Arial, sans-serif; /* 設定字體 */
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%; /* 確保圖片不會超出容器 */
+  height: auto;    /* 保持圖片比例 */
+}
